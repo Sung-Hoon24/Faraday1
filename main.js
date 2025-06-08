@@ -31,7 +31,7 @@ defeatSound.src = "./sounds/defeat1.mp3";
 /** 이미지 객체 생성 및 설정 */
 // (1) 배경
 const bgImage = new Image();
-bgImage.src = "./images/background.png";
+bgImage.src = "./images/배경.png";
 // (2) 게임 시작
 const startImage = new Image();
 startImage.src = "./images/gamestart.png";
@@ -40,7 +40,7 @@ const gameoverImage = new Image();
 gameoverImage.src = "./images/gameover.png";
 // (4) 게임 재시작
 const restartImage = new Image();
-restartImage.src = "./images/gamestart.png";
+restartImage.src = "./images/하경얼굴2.png";
 // (5) 달리는 르탄이 A
 const rtanAImage = new Image();
 rtanAImage.src = "./images/하경달리기.png";
@@ -83,7 +83,7 @@ const rtan = {
 /** end of 1-1 르탄이 그리기 */
 
 /** 2-1 장애물 설정 */
-const OBSTACLE_WIDTH = 79; // 장애물 너비
+const OBSTACLE_WIDTH = 70; // 장애물 너비
 const OBSTACLE_HEIGHT = 70; // 장애물 높이
 const OBSTACLE_FREQUENCY = 100; // 장애물 생성 빈도
 const OBSTACLE_SPEED = 7; // 장애물 이동 속도
