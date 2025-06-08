@@ -31,13 +31,13 @@ defeatSound.src = "./sounds/defeat1.mp3";
 /** 이미지 객체 생성 및 설정 */
 // (1) 배경
 const bgImage = new Image();
-bgImage.src = "./images/배경2.png";
+bgImage.src = "./images/background중세3.png";
 // (2) 게임 시작
 const startImage = new Image();
 startImage.src = "./images/gamestart.png";
 // (3) 게임 오버
 const gameoverImage = new Image();
-gameoverImage.src = "./images/달려라.png";
+gameoverImage.src = "./images/gameover.png";
 // (4) 게임 재시작
 const restartImage = new Image();
 restartImage.src = "./images/하경얼굴2.png";
@@ -46,13 +46,13 @@ const rtanAImage = new Image();
 rtanAImage.src = "./images/하율2.png";
 // (6) 달리는 르탄이 B
 const rtanBImage = new Image();
-rtanBImage.src = "./images/하율.png";
+rtanBImage.src = "./images/하율3.png";
 // (7) 게임 오버 르탄이
 const rtanCrashImage = new Image();
 rtanCrashImage.src = "./images/rtan_crash.png";
 // (8) 장애물
 const obstacleImage = new Image();
-obstacleImage.src = "./images/미사일.png";
+obstacleImage.src = "./images/obstacle1.png";
 
 /** 1-1 르탄이 그리기 */
 const RTAN_WIDTH = 100; // 르탄이 가로 너비
