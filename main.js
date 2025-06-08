@@ -85,7 +85,7 @@ const rtan = {
 /** 2-1 장애물 설정 */
 const OBSTACLE_WIDTH = 70; // 장애물 너비
 const OBSTACLE_HEIGHT = 70; // 장애물 높이
-const OBSTACLE_FREQUENCY = 100; // 장애물 생성 빈도
+const OBSTACLE_FREQUENCY = 110; // 장애물 생성 빈도
 const OBSTACLE_SPEED = 7; // 장애물 이동 속도
 
 /** 장애물 클래스 정의 */
