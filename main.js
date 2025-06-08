@@ -46,7 +46,7 @@ const rtanAImage = new Image();
 rtanAImage.src = "./images/하율2.png";
 // (6) 달리는 르탄이 B
 const rtanBImage = new Image();
-rtanBImage.src = "./images/하율3.png";
+rtanBImage.src = "./images/하율2.png";
 // (7) 게임 오버 르탄이
 const rtanCrashImage = new Image();
 rtanCrashImage.src = "./images/rtan_crash.png";
