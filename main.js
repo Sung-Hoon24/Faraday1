@@ -41,7 +41,7 @@ rtanBImage.src = "./images/하경달리기.png";
 const rtanCrashImage = new Image();
 rtanCrashImage.src = "./images/하경2.png";
 const obstacleImage = new Image();
-obstacleImage.src = "./images/하경2.png";
+obstacleImage.src = "./images/익룡2.png";
 
 /** 르탄이 설정 */
 const RTAN_WIDTH = 100;
