@@ -31,28 +31,28 @@ defeatSound.src = "./sounds/defeat1.mp3";
 /** 이미지 객체 생성 및 설정 */
 // (1) 배경
 const bgImage = new Image();
-bgImage.src = "./images/background중세4.png";
+bgImage.src = "./images/배경2.png";
 // (2) 게임 시작
 const startImage = new Image();
 startImage.src = "./images/gamestart.png";
 // (3) 게임 오버
 const gameoverImage = new Image();
-gameoverImage.src = "./images/gameover.png";
+gameoverImage.src = "./images/달려라.png";
 // (4) 게임 재시작
 const restartImage = new Image();
-restartImage.src = "./images/restart.png";
+restartImage.src = "./images/하경얼굴2.png";
 // (5) 달리는 르탄이 A
 const rtanAImage = new Image();
-rtanAImage.src = "./images/rtan_running_a.png";
+rtanAImage.src = "./images/하율2.png";
 // (6) 달리는 르탄이 B
 const rtanBImage = new Image();
-rtanBImage.src = "./images/rtan_running_b.png";
+rtanBImage.src = "./images/하율.png";
 // (7) 게임 오버 르탄이
 const rtanCrashImage = new Image();
 rtanCrashImage.src = "./images/rtan_crash.png";
 // (8) 장애물
 const obstacleImage = new Image();
-obstacleImage.src = "./images/obstacle1.png";
+obstacleImage.src = "./images/미사일.png";
 
 /** 1-1 르탄이 그리기 */
 const RTAN_WIDTH = 100; // 르탄이 가로 너비
@@ -85,8 +85,8 @@ const rtan = {
 /** 2-1 장애물 설정 */
 const OBSTACLE_WIDTH = 50; // 장애물 너비
 const OBSTACLE_HEIGHT = 50; // 장애물 높이
-const OBSTACLE_FREQUENCY = 90; // 장애물 생성 빈도
-const OBSTACLE_SPEED = 4; // 장애물 이동 속도
+const OBSTACLE_FREQUENCY = 100; // 장애물 생성 빈도
+const OBSTACLE_SPEED = 5; // 장애물 이동 속도
 
 /** 장애물 클래스 정의 */
 class Obstacle {
