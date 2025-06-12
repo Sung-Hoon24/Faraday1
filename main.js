@@ -33,13 +33,7 @@ startImage.src = "./images/gamestart.png";
 const gameoverImage = new Image();
 gameoverImage.src = "./images/gameover.png";
 const restartImage = new Image();
-restartImage.src = "./images/하경얼굴2.png";
-const rtanAImage = new Image();
-rtanAImage.src = "./images/하경달리기.png";
-const rtanBImage = new Image();
-rtanBImage.src = "./images/하경달리기.png";
-const rtanCrashImage = new Image();
-rtanCrashImage.src = "./images/하경2.png";
+restartImage.src = "./images/하율3율2.png";
 const obstacleImage = new Image();
 obstacleImage.src = "./images/익룡2.png";
 
