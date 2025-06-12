@@ -25,17 +25,31 @@ const bgmSound = new Audio("./sounds/bgm.mp3");
 const scoreSound = new Audio("./sounds/score.mp3");
 const defeatSound = new Audio("./sounds/defeat1.mp3");
 
-/** 이미지 객체 */
+/** 이미지 객체 생성 및 설정 */
+// (1) 배경
 const bgImage = new Image();
-bgImage.src = "./images/배경.png";
+bgImage.src = "./images/background중세1.png";
+// (2) 게임 시작
 const startImage = new Image();
 startImage.src = "./images/gamestart.png";
+// (3) 게임 오버
 const gameoverImage = new Image();
 gameoverImage.src = "./images/gameover.png";
+// (4) 게임 재시작
 const restartImage = new Image();
-restartImage.src = "./images/하율3.png";
+restartImage.src = "./images/restart.png";
+// (5) 달리는 르탄이 A
+const rtanAImage = new Image();
+rtanAImage.src = "./images/하율1.png";
+// (6) 달리는 르탄이 B
+const rtanBImage = new Image();
+rtanBImage.src = "./images/하율1.png";
+// (7) 게임 오버 르탄이
+const rtanCrashImage = new Image();
+rtanCrashImage.src = "./images/하율3.png";
+// (8) 장애물
 const obstacleImage = new Image();
-obstacleImage.src = "./images/익룡2.png";
+obstacleImage.src = "./images/익룡.png";
 
 /** 르탄이 설정 */
 const RTAN_WIDTH = 100;
