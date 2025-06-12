@@ -33,7 +33,7 @@ startImage.src = "./images/gamestart.png";
 const gameoverImage = new Image();
 gameoverImage.src = "./images/gameover.png";
 const restartImage = new Image();
-restartImage.src = "./images/하율3율2.png";
+restartImage.src = "./images/하율3.png";
 const obstacleImage = new Image();
 obstacleImage.src = "./images/익룡2.png";
 
