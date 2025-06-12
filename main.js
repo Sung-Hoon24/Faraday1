@@ -43,10 +43,10 @@ const restartImage = new Image();
 restartImage.src = "./images/restart.png";
 // (5) 달리는 르탄이 A
 const rtanAImage = new Image();
-rtanAImage.src = "./images/하율1.png";
+rtanAImage.src = "./images/하율2.png";
 // (6) 달리는 르탄이 B
 const rtanBImage = new Image();
-rtanBImage.src = "./images/하율1.png";
+rtanBImage.src = "./images/하율2.png";
 // (7) 게임 오버 르탄이
 const rtanCrashImage = new Image();
 rtanCrashImage.src = "./images/하율3.png";
